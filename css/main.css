@@ -95,8 +95,8 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .text-container {
@@ -202,7 +202,7 @@ button {
   width: 90%;
   font-size: 2.5em;
   text-align: center;
-  margin: auto;
+
 }
 
 .full-width {
@@ -255,7 +255,7 @@ button {
   padding-top: 20px;
   padding-bottom: 25px;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   color: white;
   font-family: 'Montserrat', "Avenir Next", Helvetica, Arial, sans-serif;
@@ -492,6 +492,7 @@ button {
 
 .page-single__header {
   margin-bottom: 75px;
+  margin-left: 50px;
 }
 
 .page-single__title {
@@ -511,7 +512,7 @@ button {
 /**
 * decouvrez-notre-librairie
 */
-.container.decouvrez-notre-librairie {
+.container .decouvrez-notre-librairie {
   text-align: center;
 
 }
@@ -522,4 +523,25 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+}
+
+/**
+* conseil de lecture
+*/
+
+
+.pieuvre {
+  height: 844px;
+  width: 560px;
+
+}
+
+.parents {
+  display: flex;
+
+}
+
+.enfant1 {
+  display: flex;
+  flex-direction: column;
 }
