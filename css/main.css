@@ -351,7 +351,7 @@ button {
 .honey-pot-list {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .honey-pot {
