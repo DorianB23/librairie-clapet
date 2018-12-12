@@ -321,11 +321,13 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .honey-pot {
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  margin:0 0px 35px 0px;;
   text-align: center;
 }
 
