@@ -315,6 +315,9 @@ button {
     transform: rotate(-45deg);
 }
 
+.separator2 {
+  margin: 15px 0px 15px 0px;
+}
 /**
 * honey-pot
 */
@@ -371,6 +374,7 @@ button {
 * news
 */
 
+
 .news__link:hover {
   color: #d86324;
 }
@@ -391,7 +395,7 @@ button {
 
 .news__image {
   display: block;
-  width: 100%;
+  width: 28.6em;
 }
 
 .news__date {
@@ -437,6 +441,7 @@ button {
 /**
 * news-list
 */
+
 .news-list {
   display: grid;
   grid-gap: 35px;
@@ -451,6 +456,10 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+}
+
+.Tiffany {
+  display: flex;
 }
 
 /**
