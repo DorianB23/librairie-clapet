@@ -427,7 +427,7 @@ button {
 
 .news__image {
   display: block;
-  width: 28.6em;
+  width: 100%;
 }
 
 .news__date {
@@ -504,13 +504,33 @@ button {
 
 }
 
+.news-list__news {
+  grid-column: span 1;
+}
+
+.news-4cases {
+  grid-column: span 4;
+  
+}
+
+.news-4cases .news__link{
+  display:grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+
+.news-2cases {
+  grid-column: span 2;
+
+}
+
+
 .news-list .news-list__news--main {
   grid-column: span 3;
 }
 
-.news-list__news {
-  grid-column: span 1;
-}
 
 .news__contentsingle {
   margin: 0 10px 0px 30px;
