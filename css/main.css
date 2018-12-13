@@ -318,6 +318,7 @@ button {
   text-align: center;
 }
 
+
 /**
 * separator
 */
@@ -342,7 +343,7 @@ button {
 }
 
 .separator2 {
-  margin: 15px 0px 15px 0px;
+  margin: 1.5em 8em 1.5em 0;
 }
 /**
 * honey-pot
@@ -437,10 +438,23 @@ button {
   line-height: 1.4;
 }
 
+.news__titlesingle {
+  font-size: 3.4em;
+  margin: 0 0 15px;
+  font-weight: bold;
+}
+
+
 .news__text {
   margin: 0;
   font-size: 1.4em;
   line-height: 1.4;
+}
+
+.news__textsingle {
+  font-size: 2em;
+    max-width: 80%;
+    text-align: justify;
 }
 
 .page-list .news {
@@ -482,6 +496,14 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+}
+
+.news__contentsingle {
+  margin: 0 10px 0px 30px;
+}
+
+.imgtiffany {
+  width: 60.1em;
 }
 
 .Tiffany {
