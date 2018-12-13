@@ -213,8 +213,13 @@ button {
 
 .texte_conseil {
   font-family: 'Work Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: justify;
+}
+
+.texte_nullam {
+   font-family: 'Work Sans', sans-serif;
+  margin: 0 9em 0 9em;
 }
 
 .full-width {
@@ -578,4 +583,31 @@ button {
 .enfant1 {
   display: flex;
   flex-direction: column;
+  margin-left: 3em;
+}
+
+.citation {
+  color: #e8a27d;
+  text-align: left;
+  font-size: 2.4em;
+  font-family: Montserrat;
+  border-left: 4px solid #d9d9d9;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.citation1 {
+  color: #e8a27d;
+  text-align: left;
+    font-size: 2.4em;
+    font-family: Montserrat;
+    border-left: 4px solid #d9d9d9;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.auteur{
+  height: 19px;
+  font-family: WorkSans, sans-serif;
+  text-align: right;
 }
