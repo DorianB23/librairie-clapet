@@ -449,6 +449,12 @@ button {
   font-weight: bold;
 }
 
+.news__titleactu {
+  margin: 0 0 15px;
+  font-weight: bold;
+  font-size: 2.4em;
+  line-height: 1.4;
+}
 
 .news__text {
   margin: 0;
@@ -458,8 +464,14 @@ button {
 
 .news__textsingle {
   font-size: 2em;
-    max-width: 80%;
-    text-align: justify;
+   max-width: 80%;
+   text-align: justify;
+}
+
+.news__textactu {
+  margin: 0;
+  font-size:2em;
+  line-height: 1.4;
 }
 
 .page-list .news {
@@ -501,6 +513,8 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
 
 }
 
@@ -536,9 +550,7 @@ button {
   margin: 0 10px 0px 30px;
 }
 
-.imgtiffany {
-  width: 60.1em;
-}
+
 
 .Tiffany {
   display: flex;
