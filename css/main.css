@@ -495,6 +495,15 @@ button {
   margin-bottom: 35px;
 }
 
+.news-list-actualites{
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+
+}
+
 .news-list .news-list__news--main {
   grid-column: span 3;
 }
