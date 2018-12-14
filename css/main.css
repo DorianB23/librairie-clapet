@@ -348,7 +348,7 @@ button {
 }
 
 .separator2 {
-  margin: 1.5em 8em 1.5em 0;
+  margin: 2em 0 2em 0;
 }
 /**
 * honey-pot
@@ -550,7 +550,20 @@ button {
   margin: 0 10px 0px 30px;
 }
 
+.news-list-tiffany {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
 
+.tiffany-1cases {
+  grid-column: span 1;
+}
+
+.tiffany-2cases {
+  grid-column: span 2;
+}
 
 .Tiffany {
   display: flex;
